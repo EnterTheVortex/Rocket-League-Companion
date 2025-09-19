@@ -9,7 +9,7 @@ const playerMVP = document.getElementById('playerMVP');
 const errorMsg = document.getElementById('error');
 
 // Replace this with your RapidAPI key
-const RAPIDAPI_KEY = 'YOUR_API_KEY_HERE';
+const RAPIDAPI_KEY = 'f9fda30e87msh14ddd6be1078124ple49aejsn32ec032002c1';
 
 searchBtn.addEventListener('click', () => {
   const username = playerNameInput.value.trim();
