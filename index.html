@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rocket League Companion App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Rocket League Companion</h1>
+    
+    <div class="search">
+      <input type="text" id="playerName" placeholder="Enter Rocket League Username">
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div id="playerStats" class="player-stats hidden">
+      <h2 id="playerUsername"></h2>
+      <p><strong>Rank:</strong> <span id="playerRank"></span></p>
+      <p><strong>Wins:</strong> <span id="playerWins"></span></p>
+      <p><strong>Goals:</strong> <span id="playerGoals"></span></p>
+      <p><strong>MVPs:</strong> <span id="playerMVP"></span></p>
+    </div>
+
+    <p id="error" class="error"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
